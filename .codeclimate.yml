@@ -41,6 +41,8 @@ checks:
     config:
       threshold: #language-specific defaults. overrides affect all languages.
 plugins:
+ nodesecurity:
+  enabled: true
  eslint:
   enabled: true
 exclude_patterns:
